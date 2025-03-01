@@ -35,6 +35,19 @@ modules:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency 
       - gnome-help
+      - gnome-tour
+
+  - type: fonts
+    fonts:
+      nerd-fonts:
+        - Iosevka
+        - JetBrainsMono
+        - NerdFontsSymbolsOnly
+      google-fonts:
+        - Roboto
+        - Open Sans
+        - google-noto-emoji-fonts
+
       
  # - type: default-flatpaks
  #   notify: true # Send notification after install/uninstall is finished (true/false)
