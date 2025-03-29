@@ -1,11 +1,10 @@
 # bluefin-minimal &nbsp; [![bluebuild build badge](https://github.com/aki-repo/bluefin-minimal/actions/workflows/build.yml/badge.svg)](https://github.com/aki-repo/bluefin-minimal/actions/workflows/build.yml)
 
-Based on bluefin-dx-nvidia minus all the gnome crap
+Based on bluefin-dx-nvidia minus some fluff plus hyprland
 
 ## Installation
 
-> [!WARNING]  
-> [This is an experimental feature](https://www.fedoraproject.org/wiki/Changes/OstreeNativeContainerStable), try at your own discretion.
+
 
 To rebase an existing atomic Fedora installation to the latest build:
 
