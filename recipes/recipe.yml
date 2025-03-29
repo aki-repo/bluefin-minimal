@@ -1,7 +1,7 @@
 ---
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
 # image will be published to ghcr.io/<user>/<name>
-name: bluefin-minimal
+name: bluefin-hypr
 # description will be included in the image's metadata
 description: bluefin w/o crap
 
@@ -53,7 +53,8 @@ modules:
     notify: true # Send notification after install/uninstall is finished (true/false)
     system:
       # If no repo information is specified, Flathub will be used by default
-      # install:
+      install:
+        - io.gitlab.librewolf-community
         # - org.mozilla.firefox
       remove:
         - org.gnome.SimpleScan
