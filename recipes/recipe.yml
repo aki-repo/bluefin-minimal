@@ -36,6 +36,7 @@ modules:
       # - firefox
       # - firefox-langpacks
       - gnome-tour
+      - gnome-help
 
   - type: fonts
     fonts:
