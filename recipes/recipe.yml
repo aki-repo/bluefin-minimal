@@ -58,7 +58,7 @@ modules:
         # - org.mozilla.firefox
       remove:
         - org.gnome.SimpleScan
-        - io.github.pwr_solaar.solaar
+        # - io.github.pwr_solaar.solaar
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
