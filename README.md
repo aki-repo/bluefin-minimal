@@ -1,6 +1,6 @@
 # bluefin-minimal &nbsp; [![bluebuild build badge](https://github.com/aki-repo/bluefin-minimal/actions/workflows/build.yml/badge.svg)](https://github.com/aki-repo/bluefin-minimal/actions/workflows/build.yml)
 
-Based on bluefin-dx-nvidia minus some fluff plus hyprland
+Based on bluefin-dx-nvidia minus some fluff plus hyprland and niri (niri is better)
 
 ## Installation
 
