@@ -31,11 +31,10 @@ modules:
       - waypaper
       - hyprlock
       - hypridle
+      - waybar
       # - starship
     remove:
-      # example: removing firefox (in favor of the flatpak)
-      - firefox
-      - firefox-langpacks
+      
       - gnome-tour
 
   - type: fonts
