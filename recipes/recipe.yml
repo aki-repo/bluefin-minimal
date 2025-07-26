@@ -49,8 +49,8 @@ modules:
         - google-noto-emoji-fonts
 
       
-- type: default-flatpaks
-  configurations:
+  - type: default-flatpaks
+    configurations:
     - scope: user
       repo:
         # you can override the title to make inclusion of both system and user repos clearer
